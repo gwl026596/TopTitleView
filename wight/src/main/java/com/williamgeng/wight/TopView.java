@@ -89,6 +89,7 @@ public class TopView extends Toolbar {
         int resourceId = mTypedArray.getResourceId(R.styleable.toolbarview_right_toolbar_img, R.drawable.shape_right_bg);//设置右边图片
         int leftResourceId = mTypedArray.getResourceId(R.styleable.toolbarview_left_toolbar_img, R.drawable.back1);//设置左边图片
         String right_toolbar = mTypedArray.getString(R.styleable.toolbarview_right_toolbar);//设置右边标题
+
         float titleDimension = mTypedArray.getDimension(R.styleable.toolbarview_title_size, 17);//设置中间标题字体大小
         float rightDimension = mTypedArray.getDimension(R.styleable.toolbarview_right_size, 17);//设置右边标题字体大小
         int colorBackGround = mTypedArray.getColor(R.styleable.toolbarview_toolbar_background, Color.WHITE);//设置整体背景颜色
