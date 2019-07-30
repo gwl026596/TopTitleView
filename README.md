@@ -25,7 +25,9 @@
     android:layout_height="50dp"
     app:title_color_toolbar="#FF6699"
     app:title_toolbar="我的钱包"
+    app:toolbar_background="#F8b60d"
     app:title_size="17sp"
+    app:right_toolbar_img="@drawable/edit_black"
     />
 ```
 
