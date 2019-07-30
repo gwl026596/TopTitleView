@@ -91,7 +91,7 @@ public class TopView extends Toolbar {
         String right_toolbar = mTypedArray.getString(R.styleable.toolbarview_right_toolbar);//设置右边标题
         float titleDimension = mTypedArray.getDimension(R.styleable.toolbarview_title_size, 15);//设置中间标题字体大小
         float rightDimension = mTypedArray.getDimension(R.styleable.toolbarview_right_size, 15);//设置右边标题字体大小
-        int colorBackGround = mTypedArray.getColor(R.styleable.toolbarview_toolbar_background, Color.BLACK);//设置整体背景颜色
+        int colorBackGround = mTypedArray.getColor(R.styleable.toolbarview_toolbar_background, Color.WHITE);//设置整体背景颜色
         int color = mTypedArray.getColor(R.styleable.toolbarview_title_color_toolbar, Color.BLACK);//设置中间标题颜色
         int right_color = mTypedArray.getColor(R.styleable.toolbarview_right_color_toolbar, Color.BLACK);//设置右边标题颜色
         toolbar.setBackgroundColor(colorBackGround);
