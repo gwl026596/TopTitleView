@@ -13,7 +13,7 @@
 可以直接在项目中在app build.gradle下添加
 
 	dependencies {
-	         implementation 'com.github.gwl026596:TopTitleView:1.1.1'
+	         implementation 'com.github.gwl026596:TopTitleView:1.1.2'
 	}
 
 
