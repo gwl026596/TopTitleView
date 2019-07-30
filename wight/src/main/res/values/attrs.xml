@@ -3,8 +3,12 @@
     <declare-styleable name="toolbarview">
         <attr name="title_color_toolbar" format="color"></attr>
         <attr name="right_color_toolbar" format="color"></attr>
+        <attr name="toolbar_background" format="color"></attr>
         <attr name="title_toolbar" format="string"></attr>
+        <attr name="title_size" format="dimension"></attr>
         <attr name="right_toolbar" format="string"></attr>
+        <attr name="right_size" format="dimension"></attr>
         <attr name="right_toolbar_img" format="reference"></attr>
+        <attr name="left_toolbar_img" format="reference"></attr>
     </declare-styleable>
 </resources>

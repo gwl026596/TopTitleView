@@ -33,7 +33,6 @@
             android:layout_gravity="center_horizontal"
             android:textColor="@color/_2A2C33"
             android:textSize="17sp"
-            android:textStyle="bold"
             tools:text="title" />
 
     </LinearLayout>
