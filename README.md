@@ -1,6 +1,18 @@
 # TopTitleView
 自定义方便好用的标题栏，可以添加标题，右边标题
 
+在根 build.gradle中repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+可以直接在项目中在app build.gradle下添加
+implementation 'com.github.gwl026596:TopTitleView:1.1.1'
+
 ```
 <com.williamgeng.wight.TopView
     android:id="@+id/topView"
